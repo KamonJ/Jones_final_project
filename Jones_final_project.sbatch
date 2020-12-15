@@ -48,7 +48,7 @@ samtools view -bS reads.sam > reads.bam
 samtools sort reads.bam -o reads-sorted.bam 
 
 #Visualize the reads using an IGV or IGB browser. Load .bam file into browser to view reads
-samtools view -uS reads.sam | samtools sort -o reads reads-sorted.bam
+samtools view -uS reads.sam | samtools sort - -o reads-sorted.bam
 
 #Create an index from the BAM file using SAMtool subcommand
 samtools index reads-sorted.bam
