@@ -16,7 +16,7 @@ The easiest way to download the spider sequences is to install and configure the
 the SRA page on ncbi.nlm.nih.gov:
 
 	
-	1) Once install and configured, you can download the sequences with- 
+	1) Once installed and configured, you can download the sequences with- 
 	   
 	   $prefetch SRR...(one run) 
 		
