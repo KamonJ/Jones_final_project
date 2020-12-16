@@ -1,0 +1,7 @@
+Building a SMALL index
+24386222 reads; of these:
+  24386222 (100.00%) were unpaired; of these:
+    21258036 (87.17%) aligned 0 times
+    3115171 (12.77%) aligned exactly 1 time
+    13015 (0.05%) aligned >1 times
+12.83% overall alignment rate
